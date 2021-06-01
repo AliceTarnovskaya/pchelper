@@ -1,0 +1,518 @@
+@import "reset.scss";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+
+   max-width: 1000px;
+    margin: auto;
+}
+.nav__container{
+    display: flex;
+      align-items: center;
+      justify-content: space-between; 
+}
+nav {
+ .burger{
+     display: none;
+ }
+
+   display: flex;
+
+    height: 80px;
+
+    background: #161616;
+
+    ul {
+        width: 680px;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            a {
+                font-size: 20px;
+                font-weight: 400px;
+                color: white;
+            }
+
+        }
+    }
+
+
+
+
+
+    .header-logo {
+        font-size: 22px;
+        color: white;
+        margin-right:40px ;
+
+        span {
+            font-weight: 900;
+
+            font-size: 24px;
+            color: #3CA1FF;
+        }
+    }
+
+}
+
+header {
+    width: 1000px;
+    margin: auto;
+    background-image: url(../img-main/rtx-3060.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+
+    .header-rtx {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-content: center;
+        width: 450px;
+span{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 100px;
+            h1{
+            font-size: 32px;
+       
+            color: white;
+        }
+        h2{
+font-size: 23px;
+color: #75B901;
+
+        }
+        button{
+outline: none;
+border: 1px solid #3CA1FF;
+width: 200px;
+height: 50px;
+color: white;
+background: transparent;
+
+transition: 0.5s linear;
+&:hover{
+color: white;
+background:#3CA1FF ;
+}
+        }
+  
+    }}
+}
+
+main{
+.main-first-h2{
+    margin-top:60 ;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+section.ready-variants{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+
+
+.ready-variants__pc{
+width: 430px;
+
+border-radius: 25px;
+background: #161616;
+padding: 20px;
+.pc__info{
+    display: flex;
+    img{
+        width:155px;
+        height: 155px;
+
+    }
+    .pc__text{
+
+        p{
+            color: white;
+            font-size: 14px;
+            margin-bottom: 6px;
+         
+            span{
+                color: #3BA1FF;
+            }
+        }
+    }
+}
+.pc__game-fps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .game-fps{
+        img{
+width: 56px;
+
+        }
+
+    }
+}
+.pc-fps__numbers{
+    display: flex;
+    justify-content: space-between;
+    p{
+        width: 60px;
+        text-align: center;
+        color: white;
+        font-size: 8px;
+    }
+}
+}
+
+}
+.make{
+    h3{
+font-size: 45px;
+color: white;
+
+
+    }
+    text-align: center;
+}
+.see-more{
+    margin-top: 20px;
+    margin-bottom: 55px;
+    font-size: 22px;text-align: center ;
+    display: block;
+    color: #3BA1FF;
+    text-decoration:underline;
+    transition: linear 1s all;
+    &:hover{
+        transition: linear 1s all;
+        text-decoration: none;
+    }
+
+    a{
+       color: #3BA1FF;
+    }
+}
+section.pc__make{
+    .pc__make-container {
+    // width: 1000px;
+    display: flex;
+flex-wrap: wrap;
+
+
+justify-content: space-between;
+    }
+    .make-box {
+        margin-top: 20px;
+.bg{
+    background-color: rgba(0, 0, 0, 0.651);
+
+    width: 225px;
+    height: 225px;
+    // opacity: 0.44    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        display: block;
+        width: 200px;
+font-size: 20px;
+text-align: center;
+font-weight: 700;
+color: white;
+    }
+}
+        width: 225px;
+        height: 225px;
+        border-radius: 15px; img{
+            width: 100%;
+            margin-top: 25px;
+            border-radius: 15px;
+
+        }
+    }
+}
+.h2-news {
+    color: white;
+    font-size: 38px;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}section.news{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+    .news-block {
+        width: 272px;
+        border-radius: 15px;
+        p{
+            margin-top: 18px;
+            font-size: 22px;
+            color: white    ;
+            text-align: center;
+        }
+        img{
+              width: 272px;
+              border-radius: 15px;
+            height: 202px;
+          width: 100%;
+
+        }
+    }
+
+}
+.h2-about_us{
+    color: white;
+    font-size: 38px;
+    display: block;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+section.about_us{
+    .about_us-info {
+        display: flex;
+        // flex-wrap: wrap;
+        justify-content: space-between;
+        img{
+width: 340px;
+
+        }
+p{
+    width: 490px;
+font-size: 22px;
+color: white;
+}
+}
+}
+
+}
+footer{
+    margin-top: 60px;
+    background: #161616;
+    height: 60px;
+.footer-cont{
+width: 1000px;
+margin: auto;
+height: 60px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    .footer-title {
+    
+        font-size: 30px;
+        color: white;
+        span{
+            font-weight: 900;
+            color: #3BA1FF;
+        }
+    }}
+}
+@media (max-width:999px){
+    header{
+        width: auto;
+        background-size: 100%;
+    }
+}
+@media (max-width:768px){
+    .container{
+        max-width:768px;
+        width: 100%;
+
+    }
+    .nav__container{
+        display: flex;
+          align-items: center;
+         
+    }
+    nav{
+        ul{
+            display: none;
+        }
+        .burger{
+            color: white;
+            font-size: 36px;
+            position: relative;
+            left: 10px;
+            display: block;
+            transition: linear all 1s;
+            &:hover{
+            .submenu{
+                position: absolute;
+                background: #161616;
+                width: 150px;
+                height: 200px;
+                display: flex;
+                flex-direction: column;
+                border-radius: 10px;
+                border:1px black solid;
+             
+            }}
+        }
+    }
+    header{
+        width: auto;
+        background-size: 100%;
+        .header-rtx{
+            width: 300px;
+            span{
+            h1{
+                font-size: 26px;
+            }
+            h2{
+font-size: 20px;
+            }
+            button{
+                width: 150px;
+height: 40px;
+            }
+        }
+        }
+    }
+    main{
+        section.ready-variants{
+            flex-wrap: wrap;
+            justify-content: center;
+        .ready-variants__pc{
+margin-bottom: 20px;
+        }}
+        .pc__make-container{
+            
+            flex-wrap: wrap;
+        
+        }
+        section.about_us{
+            p{
+                width: 400px;
+            }
+        }
+ 
+    }
+    footer{
+    .footer-cont{
+width: auto;
+    }   }
+}
+@media(max-width:640px){
+
+
+.container{
+    max-width:auto;
+    width:100%;
+}
+    header{
+ 
+        width: auto;
+        background-size: 100%;
+        .header-rtx{
+     
+            width: 250px;
+            height: 250px;
+            span{
+            h1{
+                font-size: 18px;
+            }
+            h2{
+font-size: 16px;
+            }
+            button{
+height: 30px;
+            }
+        }
+        }
+    }
+    section.about_us{
+        .about_us-info {
+    flex-direction: column-reverse;
+            // flex-wrap: wrap;
+
+         align-items: center;
+            img{
+
+    
+            }
+    p{
+        width: 300px;
+    font-size:18px;
+    color: white;
+    }
+    }}
+    main section.ready-variants .ready-variants__pc {
+        width: 350px;
+        border-radius: 25px;
+        background: #161616;
+        padding: 20px;
+    }
+    main section.pc__make .make-box{
+        display: block;
+        margin: auto;
+        margin-bottom: 15PX;
+    }
+    
+
+main section.news .news-block {
+  display: block;
+  margin: auto;
+}
+main section.news  {
+display: block;
+}
+main .make h3 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+}
+main section.about_us .about_us-info p {
+    width: 300px;
+    display: block;
+    margin: auto;
+    font-size: 22px;
+    color: white;
+}
+}
+
+@media(max-width:400px){
+    .header-rtx{
+     
+        width:300px;
+        height: 200px;
+        span{
+        h1{
+            font-size: 16px;
+        }
+        h2{
+font-size: 14px;
+        }
+        button{
+height: 30px;
+        }
+    }
+    }
+    main .main-first-h2 {
+        margin-top: 60;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        margin-bottom: 30px;
+    }
+
+}
+

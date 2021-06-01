@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <header>
+        <div class="container">
+            <div class="header__main">
+                <div class="header__logo">
+                    <img src="img/PChelper.svg" alt="">
+                </div>
+                <div class="header__nav">
+                    <ul class="burger">
+                        <i class="fas fa-bars"></i>
+                    </ul>
+                    <a href="#">
+                        <ul class="header__menu">
+                            <li><a href="news.html">Новости</a></li>
+                            <li><a href="collection.html">Сборки ПК</a></li>
+                            <li><a href="#">Информация для сборки</a></li>
+                            <li><a href="index.html">О нас</a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-news">
+        <div class="container main-news__container">
+            <div class="main-news__main">
+                <div class="main-news__title">
+                    <h3>Life is Strange: True Colors <br>
+                        Новые кадры и комментарии разработчиков</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-info">
+        <div class="container main-info__container">
+            <div class="main-info__text">
+                <p>
+                    Deck Nine опубликовали новое видео Life is Strange: True Colors
+                    с комментариями разработчиков. Так же промо вк
+                    лючает несколько новых кадров и расшренных сцен, которых не было в дебютном трейлере.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="video-news">
+        <div class="container video-news__container">
+            <div class="video-news__video">
+            </div>
+            <div class="video-news__text">
+                <p>В истории популярной серии Life Is Strange начинается
+                    следующий этап — вам предстоит познакомиться с новой
+                    главной героиней и раскрыть волнующую тайну! Алекс Чэнь
+                    давно скрывает от всех своё «проклятие» — сверхъестественное умение
+                    считывать и поглощать сильные чувства других людей, которые
+                    представляются ей в виде разноцветных
+                    аур, а также управлять ими. Когда её брат погибает — якобы
+                    в результате несчастного случая, — Алекс
+                    приходится овладеть своими силами, чтобы узнать правду… и заодно раскрыть мрачные тайны
+                    маленького
+                    городка.</p>
+            </div>
+            <div class="video-news__pre-order">
+                <p>Предзаказы уже стартовали — 2000 рублей в Steam. В комплекте
+                    Deluxe (2362 рубля) несколько косметических предмет
+                    ов и дополнение Wavelengths, посвящённое Стеф. В Ultimate ещ
+                    ё и ремастеры первой части и Before the Storm (2952 рубля).
+                </p>
+            </div>
+            <div class="video-news__release">
+                <p>Релиз 10 сентября.</p>
+            </div>
+        </div>
+    </section>
+    <section class="similar">
+        <div class="container similar__container">
+            <h4 class="similar__title">Похожие новости:</h4>
+            <div id="app" class="animate-container">
+                <card data-image="img/video-original.png">
+                    <h1 slot="header">Life is Strange: True Colors</h1>
+                    <p slot="content">Анонсирована Life is Strange: True Colors —
+                        возвращение к корням, релиз целиком в сентябре вместе с ремастерами</p>
+                </card>
+                <card data-image="img/card.jpg">
+                    <h1 slot="header">The Last of Us Part 2</h1>
+                    <p slot="content">Игроки The Last of Us Part 2 обнаружили
+                        потрясающую физику и анимацию веревок.</p>
+                </card>
+                <card data-image="img/card3.jpg">
+                    <h1 slot="header">Dragon Quest XI Definitive</h1>
+                    <p slot="content">Dragon Quest XI Definitive Edition получила
+                        10-часовое демо на PC, PS4 и Xbox One</p>
+                </card>
+
+                <card data-image="img/card2.jpg">
+                    <h1 slot="header">The Last of Us Part 2</h1>
+                    <p slot="content">Первый эпизод Life is Strange 2
+                        стал бесплатным на всех платформах</p>
+                </card>
+
+                <card data-image="img/valorant2.jpg">
+                    <h1 slot="header"> VALORANT</h1>
+                    <p slot="content">В VALORANT скоро введут карту BREEZE и новый боевой пропуск</p>
+                </card>
+                <card data-image="img/warzone.jpg">
+                    <h1 slot="header">CALL OF DUTY: WARZONE</h1>
+                    <p slot="content">Верданск помолодел на 37 лет — трейлеры к запуску нового сезона CALL OF DUTY:
+                        WARZONE</p>
+                </card>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__logo">
+                <img src="img/PChelper(footer).svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script> -->
+</body>
+
+</html>
